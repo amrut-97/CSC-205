@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card_list{
+    width: 100%;
+    height: 100%;
+}
+.card_list .card{
+    font-size: 14px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 18%;
+    display: inline-block;
+    border: 0.1rem solid lightgray;
+}
+
+.card_list .card p.price_desc{
+
+}
+
+.card_list .card #value{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card_list .card a.contact_link, a.plan_link{
+    margin-bottom: 1em;
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: bold;
+}
+.card_list .card button.btn{
+    margin-top: 2em;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.card_list .card p.feature_desc{
+    font-size: 13px;
+    color: grey;
+    font-weight: bold;
+}
+.card_list .card ul.added_feature_list{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 2em;
+}
+
+.card_list .card ul.added_feature_list li:before {
+    background-color: darkcyan;
+    content: '';  /* placeholder for the SVG */
+    position: absolute;
+    left: 0;  /* place the SVG at the start of the padding */
+    width: 1.5em;
+    height: 1.5em;
+    background: url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg width='18' height='18' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>") no-repeat;
+}
+
+.card_list .card ul.added_feature_list li{
+    width: 200px;
+    color: gray;
+    font-weight: 400;
+    position: relative;
+    padding-left: 2em;
+    margin-bottom: 1em;
+}
+
+.card_list .card ul.added_feature_list li.dashed_und{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: darkcyan;
+    text-underline-offset: 0.2em;
+}
