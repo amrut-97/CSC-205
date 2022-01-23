@@ -42,7 +42,7 @@ body{
     position: relative;
     top: 7%;
     height: 5vh;
-    margin-bottom: 5%;
+    margin-bottom: 3.5%;
 }
 
 .card_list .card p#value{
@@ -65,7 +65,7 @@ body{
     font-weight: bold;
 }
 .card_list .card button.btn{
-    margin-top: 2em;
+    margin-top: 6vh;
     padding-left: 25%;
     padding-right: 25%;
     width: 100%;
