@@ -1,0 +1,327 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+header{
+    border: 1px solid red ;
+    text-align: center;
+    height: 10vh;
+    line-height: 450%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 10vh;
+    line-height: 450%;
+    border: 1px solid red ;
+}
+
+div#content{
+    position: relative;
+    top: 5%;
+    left: 10%;
+    width: 80vw;
+    height: 70vh;
+    border: 2px solid black ;
+}
+
+div.header_row{
+    color: blue;
+    height: 20%;
+}
+
+div#content ul.header_cols{
+    height: 100%;
+}
+
+div#content ul.header_cols li{
+    float: left;
+    text-align:center;
+    height: 100%;
+    list-style: none;
+    padding: 1%;
+    border: 1px solid black;
+    line-height: 500%;
+}
+
+
+div#content div.header_row ul.header_cols li.second_col{
+    padding: 0;
+    height: 100%;
+}
+
+div#content div.header_row ul.header_cols li.second_col p.outer{
+    height: 50%;
+    text-align:center;
+    padding: 1%;
+}
+
+div#content div.header_row ul.header_cols li.second_col div.second_col_inner{
+    height: 50%;
+}
+
+div#content div.header_row ul.header_cols li.second_col div.second_col_inner ul{
+    height: 100%;
+}
+
+div#content div.prod_data{
+    height: 80%;
+}
+
+div#content div.prod_data div.data_row{
+    height: 12.5%;
+    
+}
+div#content div.prod_data div.data_row ul{
+    height: 100%;
+    list-style: none;
+}
+
+div#content div.prod_data ul li{
+    height: 100%;
+    float: left;
+    text-align:center;
+    border: 1px solid black;
+}
+
+.tb_col_data_vs{
+    width: 10%;
+}
+
+.tb_col_data_sm{
+    width: 15%;
+}
+
+.tb_col_data_md{
+    width: 20%;
+}
+
+.tb_col_data_lg{
+    width: 25%;
+}
+
+.head_vs{
+    width: 10%;
+}
+
+.head_sm{
+    width: 20%;
+}
+
+.head_md{
+    width: 30%;
+}
+
+.head_lg{
+    width: 50%;
+}
+
+.color_red{
+    color: red;
+}
+
+@media screen and (max-width: 320px){
+    div#content ul.header_cols li {
+        font-size: 7px;
+        line-height: 350%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col{
+        line-height: 150%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col div.second_col_inner ul li{
+        line-height: 150%;
+    }
+
+    div#content div.prod_data ul li{
+        font-size: 7px;
+        line-height: 150%;
+    }    
+}
+
+@media screen and (min-width: 321px) {
+    div#content ul.header_cols li {
+        font-size: 9px;
+        line-height: 500%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col{
+        line-height: 250%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col div.second_col_inner ul li{
+        line-height: 250%;
+    }
+
+    div#content div.prod_data ul li{
+        font-size: 8px;
+        line-height: 300%;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    div#content ul.header_cols li {
+        font-size: 11px;
+        line-height: 500%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col{
+        line-height: 250%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col div.second_col_inner ul li{
+        line-height: 250%;
+    }
+    div#content div.prod_data ul li{
+        font-size: 10px;
+        line-height: 300%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    div#content ul.header_cols li {
+        font-size: 12px;
+        line-height: 450%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col{
+        line-height: 250%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col div.second_col_inner ul li{
+        line-height: 250%;
+    }
+    div#content div.prod_data ul li{
+        font-size: 11px;
+        line-height: 300%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    div#content ul.header_cols li {
+        font-size: 14px;
+        line-height: 450%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col{
+        line-height: 250%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col div.second_col_inner ul li{
+        line-height: 250%;
+    }
+    div#content div.prod_data ul li{
+        font-size: 13px;
+        line-height: 300%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    div#content ul.header_cols li {
+        font-size: 15px;
+        line-height: 450%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col{
+        line-height: 250%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col div.second_col_inner ul li{
+        line-height: 250%;
+    }
+    div#content div.prod_data ul li{
+        font-size: 14px;
+        line-height: 250%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    div#content ul.header_cols li {
+        font-size: 17px;
+        line-height: 400%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col{
+        line-height: 200%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col div.second_col_inner ul li{
+        line-height: 200%;
+    }
+
+    div#content div.prod_data ul li{
+        font-size: 15px;
+        line-height: 250%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    div#content ul.header_cols li {
+        font-size: 19px;
+        line-height: 400%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col{
+        line-height: 200%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col div.second_col_inner ul li{
+        line-height: 200%;
+    }
+
+    div#content div.prod_data ul li{
+        font-size: 17px;
+        line-height: 250%;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    div#content ul.header_cols li {
+        font-size: 20px;
+        line-height: 350%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col{
+        line-height: 150%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col div.second_col_inner ul li{
+        line-height: 150%;
+    }
+
+    div#content div.prod_data ul li{
+        font-size: 18px;
+        line-height: 250%;
+    }
+}
+
+@media screen and (min-width: 1660px) {
+    div#content ul.header_cols li {
+        font-size: 24px;
+        line-height: 300%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col{
+        line-height: 200%;
+    }
+
+    div#content div.header_row ul.header_cols li.second_col div.second_col_inner ul li{
+        line-height: 200%;
+    }
+
+    div#content div.prod_data ul li{
+        font-size: 20px;
+        line-height: 300%;
+    }
+}
