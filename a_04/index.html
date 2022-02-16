@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form and Listing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="left_pane">
+            <div class="stud_reg">
+                <h1 class="title">Registration Form</h1>
+                <form class="stud_form" action="">
+                    <div class="input_grp">
+                        <div class="input_wrap">
+                            <label for="f_name">First name</label>
+                            <input type="text" name="f_name" id="f_name">
+                        </div>
+
+                        <div class="input_wrap">
+                            <label for="l_name">Last name</label>
+                            <input type="text" name="l_name" id="l_name">
+                        </div>
+                    </div>
+
+                    <div class="input_wrap">
+                        <label for="email_id">Email Id</label>
+                        <input type="email" name="email_id" id="email_id">
+                    </div>
+
+                    <div class="input_wrap">
+                        <label for="cont_no">Contact No.</label>
+                        <input type="text" name="cont_no" id="cont_no">
+                    </div>
+
+                    <div class="input_wrap">
+                        <label for="u_name">User name</label>
+                        <input type="text" name="u_name" id="u_name">
+                    </div>
+
+                    <div class="input_wrap">
+                        <label for="pass">Password </label>
+                    <input type="password" name="pass" id="pass">
+                    </div>
+
+
+                    <div class="input_wrap">
+                        <label for="re_pass">Confirm Password </label>
+                        <input type="password" name="re_pass" id="re_pass">
+                    </div>
+
+                    <div class="btn_wrap"> 
+                        <button id="btn_submit" type="submit" name="btn_submit">Submit</button>
+                        <button id="btn_reset" type="reset" name="btn_submit">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div id="vert_line"></div>
+
+        <div class="right_pane">
+            <div class="stud_reg_list">
+                <h1 class="title">Registration List</h1>
+                <div class = "container">
+                    <table class="reg_list_tb">
+                        <tr class="header_row">
+                            <th>Name</th>
+                            <th>Email Id</th>
+                            <th>Contact no</th>
+                            <th>Username</th>
+                        </tr>
+                        <tr class="tb_data">
+                            <td>John Smith</td>
+                            <td>johnsmith14@rediffmail.com</td>
+                            <td>7531123111</td>
+                            <td>johnsmith4566</td>
+                        </tr>
+                        <tr class="tb_data">
+                            <td>Maria D'Souza</td>
+                            <td>maria_dsouza@gmail.com</td>
+                            <td>5243445454</td>
+                            <td>maria_dsouza33</td>
+                        </tr>
+                        <tr class="tb_data">
+                            <td>Maria D'Souza</td>
+                            <td>maria_dsouza@gmail.com</td>
+                            <td>5243445454</td>
+                            <td>maria_dsouza33</td>
+                        </tr>
+                        <tr class="tb_data">
+                            <td>Maria D'Souza</td>
+                            <td>maria_dsouza@gmail.com</td>
+                            <td>5243445454</td>
+                            <td>maria_dsouza33</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

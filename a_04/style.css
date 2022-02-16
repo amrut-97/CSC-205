@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background: #141a34;
+    display: flex;
+}
+
+#main div.left_pane{
+    width: 50%;
+    height: 100%;
+}
+#main div.left_pane div.stud_reg{
+    position: relative;
+    top: 10%;
+    left: 15%;
+    width: 75%;
+    height: 85%;
+    background: #fff;
+    border: 2px solid #7acaff;
+    padding: 3% 3% 2%;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);    
+}
+
+#main div.left_pane div.stud_reg h1.title{
+    color: #141a34;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.05vw;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 10%;
+    font-weight: 700;
+}
+
+#main div.left_pane div.stud_reg form.stud_form{
+    margin-left: 10%;
+    
+}
+#main div.left_pane div.stud_reg form.stud_form div.input_grp{
+    width: 100%;
+    display: flex;
+}
+
+#main div.left_pane div.stud_reg form.stud_form div.input_grp div.input_wrap{
+    width: 30%;
+    margin: 10% 10% 2% 10%;
+}
+
+#main div.left_pane div.stud_reg form.stud_form div.input_grp div.input_wrap label{
+    margin-bottom: 6%;
+    width: 100%;
+}
+
+#main div.left_pane div.stud_reg form.stud_form div.input_grp div.input_wrap input[type="text"]{
+    padding: 4% 6%;
+    font-size: 16px;
+    width: 100%;
+    border: 1.5px solid black;
+    border-radius: 2px;
+}
+
+#main div.left_pane div.stud_reg form.stud_form div.input_wrap{
+    margin: 0% 0% 2% 10%;
+}
+
+#main div.left_pane div.stud_reg form.stud_form div.input_wrap input{
+    border: 1.5px solid black;
+    border-radius: 2px;
+    padding: 1% 2%;
+    font-size: 16px;
+    width: 55%;
+}
+
+#main div.left_pane div.stud_reg form.stud_form input:hover{
+    box-shadow: 1px 1px 1px #7acaff;
+}
+
+#main div.left_pane div.stud_reg form.stud_form input:focus{
+    outline-color: #141a34;
+}
+#main div.left_pane div.stud_reg form.stud_form div.input_wrap label{
+    display: flex;
+    margin-bottom: 0.5%;
+    width: 50%;
+}
+
+#main div.left_pane div.stud_reg form.stud_form div.btn_wrap{
+    width: 100%;
+    margin: 10% 0%;
+}
+
+#btn_submit, #btn_reset{
+    background-color: white;
+    margin: 1% 4%;
+    width: 35%;
+    font-size: 18px;
+    padding: 1% 4%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#btn_submit{
+    border: 2px solid #374791;
+    color: #374791;
+}
+
+#btn_reset{
+    border: 2px solid #474747;
+    color: #474747;
+}
+#btn_submit:hover{
+    color: white;
+    background-color: #3c5fa0;
+    opacity: 0.9;
+    box-shadow: 1px 1px #374791;
+}
+
+#btn_reset:hover{
+    border: 2px solid #5c5b5b;
+    color: #ffffff;
+    background-color: #969595;
+    opacity: 0.9;
+    box-shadow: 1px 1px #5c5b5b;
+}
+#main div.right_pane{
+    width: 50%;
+    height: 100%;
+}
+#main div.right_pane div.stud_reg_list{
+    color: #fff;
+    width: 40vw;
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 85%;
+
+}
+
+#main div.right_pane div.stud_reg_list h1.title{
+    text-align: center;
+    margin: 2% 5% 5% 5%;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-underline-offset: 10%;
+}
+
+#main div.right_pane div.stud_reg_list div.container table.reg_list_tb{
+    background-color: #394573;
+    width: 100%;
+    border-radius: 2px;
+}
+#main div.right_pane div.stud_reg_list div.container table.reg_list_tb tr.header_row{
+    border: 2px solid red;
+}
+#main div.right_pane div.stud_reg_list div.container table.reg_list_tb tr th{
+    width: fit-content;
+    border-right: 4px solid lightblue;
+    border-bottom: 4px solid lightblue;
+    border-top: 4px solid lightblue;
+    border-left: 4px solid lightblue;
+    padding: 1%;
+}
+
+#main div.right_pane div.stud_reg_list div.container table.reg_list_tb tr td{
+    border-right: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+    border-left: 2px solid lightblue;
+    padding: 1%;
+    width: fit-content;
+}
