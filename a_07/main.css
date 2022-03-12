@@ -1,0 +1,201 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background: #141a34;
+    overflow-x: hidden;
+}
+
+#main .left_pane{
+    float: left;
+    width: 49%;
+    height: 960px;
+}
+#main .left_pane .stud_reg{
+    width: 75%;
+    height: auto;
+    margin: 5% 10%;
+    background: #fff;
+    border: 2px solid #7acaff;
+    padding: 3%;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);    
+}
+
+#main .left_pane .stud_reg h1.title{
+    color: #141a34;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.05vw;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 10%;
+    font-weight: 700;
+}
+
+#main .left_pane .stud_reg #stud_form{
+    margin-left: 5%;
+    
+}
+#main .left_pane .stud_reg #stud_form .input_grp{
+    width: 100%;
+    display: flex;
+}
+
+#main .left_pane .stud_reg #stud_form .input_grp .input_wrap{
+    width: 30%;
+    margin: 10% 10% 2% 10%;
+}
+
+
+#main .left_pane .stud_reg #stud_form .input_grp .input_wrap label{
+    margin-bottom: 6%;
+    width: 100%;
+}
+
+#main .left_pane .stud_reg #stud_form .input_grp .input_wrap input{
+    padding: 4% 6%;
+    font-size: 0.9em;
+    width: 100%;
+    border: 1.5px solid black;
+    border-radius: 2px;
+}
+
+#main .left_pane .stud_reg #stud_form .input_wrap{
+    width: 100%;
+    margin: 0% 0% 2% 10%;
+}
+
+#main .left_pane .stud_reg #stud_form .input_wrap input{
+    border: 1.5px solid black;
+    border-radius: 2px;
+    padding: 1% 2%;
+    font-size: 0.9em;
+    width: 55%;
+}
+
+#main .left_pane .stud_reg #stud_form input:hover{
+    box-shadow: 1px 1px 1px #3985f8;
+    transition: 0.3s;
+}
+
+#main .left_pane .stud_reg #stud_form input:focus{
+    outline-color: #141a34;
+}
+
+#main .left_pane .stud_reg #stud_form .input_wrap.error input{
+    border: 1.5px solid red;
+}
+
+#main .left_pane .stud_reg #stud_form .input_wrap.error input:hover{
+    box-shadow: 1px 1px 1px #ff7a7a;
+}
+
+#main .left_pane .stud_reg #stud_form .input_wrap #text{
+    width: 150%;
+    display: block;
+    margin: 0.25em 0;
+    color: red;
+    font-size: 0.8em;
+}
+
+#main .left_pane .stud_reg #stud_form .input_wrap label{
+    display: flex;
+    margin-bottom: 0.5%;
+    width: 50%;
+}
+
+#main .left_pane .stud_reg #stud_form .btn_wrap{
+    width: 100%;
+    margin: 10% 0%;
+}
+
+#btn_submit, #btn_reset{
+    background-color: white;
+    margin: 1% 4%;
+    width: 35%;
+    font-size: 18px;
+    padding: 1% 4%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#btn_submit{
+    border: 2px solid #37578d;
+    color: #374791;
+}
+
+#btn_reset{
+    border: 1.5px solid #5c5b5b;
+    color: #474747;
+}
+#btn_submit:hover{
+    color: white;
+    background-color: #37578d;
+    opacity: 0.9;
+    box-shadow: 1px 1px #37578d;
+    transition: 0.3s;
+}
+
+#btn_reset:hover{
+    border: 1.5px solid #969595;
+    color: #ffffff;
+    background-color: #d3d2d2;
+    opacity: 0.9;
+    box-shadow: 1px 1px #5c5b5b;
+    transition: 0.3s;
+}
+#main .right_pane{
+    display: inline-block;
+    width: 49%;
+    height: 960px;
+}
+#main .right_pane .stud_reg_list{
+    color: #fff;
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    margin: 5% 0%;
+    width: 100%;
+    height: 70%;
+}
+
+#main .right_pane .stud_reg_list h1.title{
+    text-align: center;
+    margin: 2% 5% 5% 5%;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-underline-offset: 10%;
+}
+
+#main .right_pane .stud_reg_list .container #reg_list_tb{
+    background-color: #394573;
+    width: 100%;
+}
+#main .right_pane .stud_reg_list .container #reg_list_tb tr.header_row{
+    border: 2px solid red;
+}
+#main .right_pane .stud_reg_list .container #reg_list_tb tr th{
+    text-align: left;
+    width: fit-content;
+    border-right: 4px solid lightblue;
+    border-bottom: 4px solid lightblue;
+    border-top: 4px solid lightblue;
+    border-left: 4px solid lightblue;
+    padding: 1%;
+}
+
+#main .right_pane .stud_reg_list .container #reg_list_tb tr td{
+    border-right: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+    border-left: 2px solid lightblue;
+    padding: 1%;
+}

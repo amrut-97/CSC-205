@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form and Listing</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="main">
+        <div class="left_pane">
+            <div class="stud_reg">
+                <h1 class="title">Registration Form</h1>
+                <form id="stud_form" novalidate action="">
+                    <div class="input_grp">
+                        <div class="input_wrap">
+                            <label for="f_name">First name</label>
+                            <input class="" type="text" name="f_name" id="f_name" placeholder="Tommy" selected="true">
+                            <span id="text"></span>
+                        </div>
+
+                        <div class="input_wrap">
+                            <label for="l_name">Last name</label>
+                            <input class="" type="text" name="l_name" id="l_name" placeholder="Hilfiger">
+                            <span id="text"></span>
+                        </div>
+                    </div>
+
+                    <div class="input_wrap">
+                        <label for="email">Email Id</label>
+                        <input type="email" name="email" id="email" placeholder="tom.hilfiger_7739@gmail.com">
+                        <span id="text"></span>
+                    </div>
+
+                    <div class="input_wrap">
+                        <label for="cont_no">Contact Number</label>
+                        <input type="text" name="cont_no" id="cont_no" placeholder="7623354127">
+                        <span id="text"></span>
+                    </div>
+
+                    <div class="input_wrap">
+                        <label for="roll_no">Roll Number</label>
+                        <input type="text" name="roll_no" id="roll_no" placeholder="1451">
+                        <span id="text"></span>
+                    </div>
+
+                    <div class="input_wrap">
+                        
+                        <label for="username">User name</label>
+                        <input type="text" name="username" id="username" placeholder="vik.jain_3133">
+                        <span id="text"></span>
+                    </div>
+
+                    <div class="input_wrap">
+                        
+                        <label for="pass">Password </label>
+                        <input type="password" name="pass" id="pass" placeholder="Enter a password">
+                        <span id="text"></span>
+                    </div>
+
+
+                    <div class="input_wrap">
+                        <label for="re_pass">Confirm Password </label>
+                        <input type="password" name="re_pass" id="re_pass" placeholder="Re-enter the same password">
+                        <span id="text"></span>
+                    </div>
+
+                    <div class="btn_wrap">
+                        <button id="btn_submit" type="submit" name="btn_submit">Submit</button>
+                        <button id="btn_reset" type="reset" name="btn_submit">Reset</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+
+        <div class="right_pane">
+            <div class="stud_reg_list">
+                <h1 class="title">Registration List</h1>
+                <div class = "container">
+                    <table id="reg_list_tb">
+                        <tr class="header_row">
+                            <th>Roll no</th>
+                            <th>Name</th>
+                            <th>Username</th>
+                            <th>Email Id</th>
+                            <th>Contact no</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script type="text/javascript" src="custom.js"></script>
+</html>
