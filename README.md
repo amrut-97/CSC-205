@@ -1,2 +1,2 @@
 # CSC-205
-Web Development Lab Assignments
+Web Development Lab Assignment Solutions
